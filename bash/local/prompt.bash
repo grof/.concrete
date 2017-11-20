@@ -8,7 +8,7 @@ fi
 ATTR_RESET=$(tput sgr0)
 
 PS1_COLOR=$(tput setaf 214)
-PATH_COLOR=$(tput setaf 123)jj
+PATH_COLOR=$(tput setaf 123)
 
 PS1='\[${PS1_COLOR}\]\h>\[${ATTR_RESET}\] '
 
